@@ -1,0 +1,111 @@
+.image
+{
+  display: block;
+  position: absolute;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  left:23%;
+  top:6%;
+  margin: auto;
+  border:5px solid rgb(204, 95, 83);
+ 
+}
+.main
+{
+  position: relative;
+  margin:0%;
+  width:23%;
+  height:735px;
+  background-color: rgb(182, 85, 28);
+}
+.nav
+{
+  position: absolute;
+}
+.nav ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  margin-left:50px;
+  margin-top:220px;
+}
+ul li a
+{
+  display:inline-block;
+  text-decoration:none;
+  padding:20px 10px;
+  color:rgba(255, 255, 255, 0.493);
+  font-size:1.1em;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover
+{
+ color: white;
+}
+.comp
+{
+  position: absolute;
+  left:25%;
+  top:6%;
+}
+p
+{
+  color:rgba(37, 34, 34, 0.247);
+  font-size:1.2em;
+}
+p:hover
+{
+  color:black;
+}
+.span1
+{
+  font-size:3em;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span2
+{
+  color:rgb(182, 85, 28);
+  font-size:3em;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span3
+{
+  color:rgb(175, 141, 122);
+  font-size:1.5em;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  margin-right:4%;
+}
+.span3:hover
+{
+  color:rgb(182, 85, 28);
+  
+}
+.sprites
+{
+  border-radius:50%;
+  width:60px;
+  height:60px;
+  padding:15px;
+}
+.foot
+{
+  position:absolute;
+  top:280%;
+}
+@media screen and(min-width:600px)and(max-width:800px)
+{
+    .main
+    {
+      width:30%;
+    }
+}
+a{
+  text-decoration:none;
+}
+
